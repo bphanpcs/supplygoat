@@ -14,5 +14,6 @@ COPY --chown=node . $WORKDIR
 # In production environment uncomment the next line
 #RUN chown -R $USER:$USER /home/$USER && chmod -R g-s,o-rx /home/$USER && chmod -R o-wrx $WORKDIR
 # Then all further actions including running the containers should be done under non-root user.
+# PR by BP
 USER $USER
 EXPOSE 4000
