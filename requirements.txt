@@ -26,7 +26,7 @@ PyYAML==6.0
 redis==3.5.3
 sanic==21.9.1
 tornado==6.1
-Werkzeug==2.0.2
+Werkzeug==3.0.1
 yarl==1.7.0
 mysqlclient==2.1.0
 fastapi==0.70.1
