@@ -32,3 +32,5 @@ mysqlclient==2.1.0
 fastapi==0.70.1
 uvicorn==0.16.0
 gunicorn==20.1.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+grpcio>=1.53.2 # not directly required, pinned by Snyk to avoid a vulnerability
